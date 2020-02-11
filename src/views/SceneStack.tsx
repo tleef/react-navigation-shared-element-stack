@@ -1,14 +1,13 @@
 import * as React from "react";
-import { Animated, View, StyleSheet, Platform, ViewProps } from "react-native";
-import { ScreenContainer, Screen, screensEnabled } from "react-native-screens";
+import { Animated, Platform, StyleSheet, View, ViewProps } from "react-native";
+import { Screen, ScreenContainer, screensEnabled } from "react-native-screens";
 import { Route } from "@react-navigation/native";
 import {
-  Stage,
   Scene,
   SceneTransitioner,
-  SceneTransitionerClass
+  SceneTransitionerClass,
+  Stage
 } from "@tleef/react-native-shared-element-scenes/lib";
-
 import {
   SharedElementStackDescriptorMap,
   SharedElementStackNavigationOptions

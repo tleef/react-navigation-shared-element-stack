@@ -1,19 +1,17 @@
 import * as React from "react";
-import { Route } from "@react-navigation/native";
-import { StackNavigationState } from "@react-navigation/routers";
-
-import SceneStack from "./SceneStack";
-import {
-  SharedElementStackNavigationHelpers,
-  SharedElementStackNavigationConfig,
-  SharedElementStackDescriptorMap,
-  SharedElementStackNavigationOptions
-} from "../types";
+import { Route, StackNavigationState } from "@react-navigation/native";
 import {
   SceneTransitionerClass,
   Transition
 } from "@tleef/react-native-shared-element-scenes/lib";
 import Animated from "react-native-reanimated";
+import SceneStack from "./SceneStack";
+import {
+  SharedElementStackDescriptorMap,
+  SharedElementStackNavigationConfig,
+  SharedElementStackNavigationHelpers,
+  SharedElementStackNavigationOptions
+} from "../types";
 
 type Props = SharedElementStackNavigationConfig & {
   state: StackNavigationState;

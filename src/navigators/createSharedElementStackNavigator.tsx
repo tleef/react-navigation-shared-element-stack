@@ -1,19 +1,17 @@
 import * as React from "react";
 import {
-  useNavigationBuilder,
   createNavigatorFactory,
-  DefaultNavigatorOptions
-} from "@react-navigation/native";
-import {
+  DefaultNavigatorOptions,
+  StackNavigationState,
   StackRouter,
   StackRouterOptions,
-  StackNavigationState
-} from "@react-navigation/routers";
+  useNavigationBuilder
+} from "@react-navigation/native";
 import SharedElementStackView from "../views/SharedElementStackView";
 import {
   SharedElementStackNavigationConfig,
-  SharedElementStackNavigationOptions,
-  SharedElementStackNavigationEventMap
+  SharedElementStackNavigationEventMap,
+  SharedElementStackNavigationOptions
 } from "../types";
 
 type Props = DefaultNavigatorOptions<SharedElementStackNavigationOptions> &

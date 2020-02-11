@@ -15,17 +15,17 @@
   },
   "homepage": "https://github.com/tleef/react-navigation-shared-element-stack#readme",
   "dependencies": {
-    "@react-navigation/native": "^5.0.1",
-    "@react-navigation/routers": "^5.0.1",
     "@tleef/react-native-shared-element-scenes": "^0.6.0"
   },
   "peerDependencies": {
+    "@react-navigation/native": "^5.0.0",
     "react": "*",
     "react-native": "*",
     "react-native-reanimated": "*",
     "react-native-screens": "*"
   },
   "devDependencies": {
+    "@react-navigation/native": "^5.0.1",
     "@types/hoist-non-react-statics": "^3.3.1",
     "@types/react": "^16.9.19",
     "@types/react-native": "^0.61.12",
