@@ -1,0 +1,40 @@
+{
+  "name": "@tleef/react-navigation-shared-element-stack",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier \"src/**/*.{ts,tsx}\" --write",
+    "prepare": "yarn build"
+  },
+  "repository": "git+https://github.com/tleef/react-navigation-shared-element-stack.git",
+  "author": "Tom Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tleef/react-navigation-shared-element-stack/issues"
+  },
+  "homepage": "https://github.com/tleef/react-navigation-shared-element-stack#readme",
+  "dependencies": {
+    "@react-navigation/native": "^5.0.1",
+    "@react-navigation/routers": "^5.0.1",
+    "@tleef/react-native-shared-element-scenes": "^0.6.0"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-reanimated": "*",
+    "react-native-screens": "*"
+  },
+  "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.3.1",
+    "@types/react": "^16.9.19",
+    "@types/react-native": "^0.61.12",
+    "prettier": "^1.19.1",
+    "react": "^16.12.0",
+    "react-native": "^0.61.5",
+    "react-native-reanimated": "~1.4.0",
+    "react-native-screens": "^2.0.0-beta.2",
+    "react-native-shared-element": "^0.5.6",
+    "typescript": "^3.7.5"
+  }
+}
