@@ -74,11 +74,6 @@ export type SharedElementStackNavigationOptions = {
 };
 
 export type SharedElementStackNavigationConfig = {
-  /**
-   * If `false`, the keyboard will NOT automatically dismiss when navigating to a new screen.
-   * Defaults to `true`.
-   */
-  keyboardHandlingEnabled?: boolean;
 };
 
 export type TransitionSpec = {
