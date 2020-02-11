@@ -71,10 +71,6 @@ export type SharedElementStackNavigationOptions = {
   sceneId?: string;
 
   prevSceneId?: string;
-
-  singleton?: boolean;
-
-  closeTo?: string;
 };
 
 export type SharedElementStackNavigationConfig = {
