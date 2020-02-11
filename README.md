@@ -1,0 +1,1 @@
+# react-navigation-shared-element-stack
