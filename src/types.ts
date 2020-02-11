@@ -73,8 +73,7 @@ export type SharedElementStackNavigationOptions = {
   prevSceneId?: string;
 };
 
-export type SharedElementStackNavigationConfig = {
-};
+export type SharedElementStackNavigationConfig = {};
 
 export type TransitionSpec = {
   animation: "spring";
